@@ -1,0 +1,24 @@
+Run tag : grid10_20260506_130655
+Config  : 10×10 grid  catch_penalty=10.0
+Training: N_TRAIN=1000  N_TEST=30  N_EPOCHS=200  N_STORE=20
+
+─── Utility statistics ───
+Method            Mean       Std       Min       Max
+Optimal        -5.2109    2.5151   -8.1700   +0.0503
+ZOC            -8.3144    1.8119  -10.0000   -1.9437
+PTO            -8.2438    1.7594  -10.0000   -2.3160
+KKT            -8.2971    1.8339  -10.0000   -1.5967
+Hybrid         -8.5177    1.6441  -10.0000   -3.2868
+
+─── Gap to optimal (mean) ───
+  ZOC: 3.1035
+  PTO: 3.0329
+  KKT: 3.0862
+  Hyb: 3.3068
+
+─── Win rates (best of 4 methods per scenario) ───
+  ZOC: 8/30  (26.7%)
+  PTO: 6/30  (20.0%)
+  KKT: 8/30  (26.7%)
+  Hyb: 2/30  (6.7%)
+  Ties: 6/30  (20.0%)

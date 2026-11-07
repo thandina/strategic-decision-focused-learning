@@ -1,0 +1,4 @@
+# Raw downloads and derived training data are rebuilt locally and never committed
+# (see README.md: the elephant tracks are sensitive and the raw files are large).
+raw/
+*.csv

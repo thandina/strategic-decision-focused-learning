@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------------------
+# Data is never committed. See data/README.md for where to obtain it and how
+# to rebuild the two derived training files.
+# ---------------------------------------------------------------------------
+data/*.csv
+data/raw/
+
+# Outputs of new training / plotting runs (the paper's stored results live in
+# results/paper/ and ARE tracked).
+conservation_game/results/
+infrastructure_game/results/
+infrastructure_game/logs/
+synthetic_game/output/
+figures/out/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.log

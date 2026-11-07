@@ -1,0 +1,16 @@
+# Core dependencies for all experiments.
+# Tested with Python 3.11: numpy 2.4, pandas 3.1, scipy 1.17, scikit-learn 1.9,
+# matplotlib 3.11, torch 2.2 (CPU). The paper's runs used torch >= 2.3 on CUDA,
+# numpy 2.x and scikit-learn 1.9 (the stored MTA checkpoints pickle a
+# scikit-learn StandardScaler; use scikit-learn >= 1.6 to reload them).
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.6
+matplotlib>=3.9
+torch>=2.2
+
+# Differentiable Stackelberg LP (KKT and Hybrid methods only). Without these
+# two packages PTO and ZOC still run; KKT/Hybrid print a warning and fall back.
+cvxpy>=1.5
+cvxpylayers>=0.1.6

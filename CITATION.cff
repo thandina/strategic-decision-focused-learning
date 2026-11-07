@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Strategic Decision Focused Learning"
+type: software
+authors:
+  - family-names: Handina
+    given-names: Tinashe
+    affiliation: California Institute of Technology
+  - family-names: Diao
+    given-names: Yuehan
+    affiliation: University of Chicago
+  - family-names: Wierman
+    given-names: Adam
+    affiliation: California Institute of Technology
+  - family-names: Mazumdar
+    given-names: Eric
+    affiliation: California Institute of Technology
+preferred-citation:
+  type: article
+  title: "Strategic Decision Focused Learning"
+  authors:
+    - family-names: Handina
+      given-names: Tinashe
+    - family-names: Diao
+      given-names: Yuehan
+    - family-names: Wierman
+      given-names: Adam
+    - family-names: Mazumdar
+      given-names: Eric
+  year: 2026
+  journal: "arXiv preprint arXiv:2609.14907"
+  url: "https://arxiv.org/abs/2609.14907"
